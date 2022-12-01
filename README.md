@@ -1,1 +1,1 @@
-# Hackintosh-ROG-STRIX_B660I
+# Hackintosh-ROG-STRIX-B660I
