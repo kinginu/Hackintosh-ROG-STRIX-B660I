@@ -21,12 +21,13 @@
 ## What doesn't work
 
 ## Not tested
-- Intel I225-V LAN (not tested yet actually)
 - Audio
 - Sleep
 - Reboot
 
 ## ToDo
+- add Intel I225-V LAN [reference](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#option-1-using-a-ssdt-with-corrected-header-description) or try [tricking Apple's I225LM driver into supporting our I225-V](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties)
+- USB Mapping
 
 ## Kexts used:
 - [Lilu.kext](https://github.com/acidanthera/Lilu/releases)  
