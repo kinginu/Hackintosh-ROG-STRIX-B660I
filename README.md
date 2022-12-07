@@ -4,7 +4,7 @@
 <br>
 **Current OpenCore**: 0.8.5-DEGUB
 
-## Complete hardware specs
+## Hardware specs
 - Intel i5 12400f
 - ASUS ROG STRIX B660I (BIOS Ver. 2012)
 - Radeon RX6600XT
@@ -31,13 +31,26 @@
 
 ## Kexts used:
 - [Lilu.kext](https://github.com/acidanthera/Lilu/releases)  
--- must have to boot
+    - kext to patch many processers, must have to boot
 - [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases)  
--- must have to boot
+    - Emulates the SMC chip, must have to boot
+    - SMCProcessor.kext
+        - for monitoring Intel CPU temperature
+    - SMCRadeonGPU.kext
+    - RadeonSensor.kext
+        - for monitoring GPU temperature
+    - SMCSuperIO.kext
+        - for monitoring fan speed
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)  
--- for graphics
+    - for graphics
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)  
--- for audio
+    - for audio
+- [NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases)
+    - for fixing power management and initialization on NVMe
+- [USBInjectAll.kext](https://github.com/daliansky/OS-X-USB-Inject-All/releases)
+    - THIS KEXT IS TEMPORALLY.
+    - for injecting all USB ports.
+    - Since [original USBInjectall.kext](https://github.com/Sniki/OS-X-USB-Inject-All) does not work with Alder Lake chipset, we need this fork.
 
 ## BIOS settings
 - Advanced > CPU Configuration > Intel (VMX) Virtualization Technology > Enabled (defalut)
