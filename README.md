@@ -215,7 +215,7 @@ Opencore Hackintosh settings for ASUS ROG Strix B660-I Gaming WiFi
 - **Boot > Boot Configuration > Fast Boot**: Disabled
 
 ## To Use this EFI
-- Serial, Board Serial, SmUUID, and Apple ROM are deleted. Generate them using GenSMBIOS.
+Serial, Board Serial, SmUUID, and Apple ROM are deleted. Generate them using GenSMBIOS.
 [SMBIOS](https://github.com/corpnewt/GenSMBIOS)  
 [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/#creating-your-config-plist)
 
