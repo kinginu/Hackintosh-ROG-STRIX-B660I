@@ -1,7 +1,7 @@
 # Hackintosh ASUS ROG Strix B660-I
 Opencore Hackintosh settings for ASUS ROG Strix B660-I Gaming WiFi
 
-**Latest working macOS**: MacOS Ventura 13.0.1  
+**Latest working MacOS**: MacOS Ventura 13.0.1  
 **Current OpenCore**: 0.8.7 (RELEASE)
 
 ## Hardware specs
@@ -28,6 +28,7 @@ Opencore Hackintosh settings for ASUS ROG Strix B660-I Gaming WiFi
 - DP hotplug  
 (DownClocking GPU may solve problem)
 - Sleep
+- Ocationally crashes while using Zoom or other full screen apps.
 
 ## SSDTs
 |  | Notes |
